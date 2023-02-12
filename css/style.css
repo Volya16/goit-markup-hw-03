@@ -27,6 +27,10 @@ h1, h2, h3, h4, h5, h6, p, ul, p {
     padding: 0 15px;
 }
 
+.section {
+    padding: 120px;
+}
+
 ul {
     margin: 0;
     padding: 0;
@@ -142,7 +146,7 @@ display: flex;
 
 /* Advantages section */
 .advantages-section {
-    padding: 120px 0;
+    padding-bottom: 0;
 }
 
 .visually-hidden {
@@ -182,10 +186,6 @@ display: flex;
 }
 
 /* Works */
-.works-section {
-    padding-bottom: 120px;
-}
-
 .work-title {
     text-align: center;
     margin-bottom: 72px;
@@ -209,7 +209,6 @@ display: flex;
 /* Our team */
 .team-section {
     background-color: var(--color-background-secondary);
-    padding: 120px 0;
 }
 
 .team-title {
@@ -278,8 +277,8 @@ display: flex;
 /* Portfolio */
 .filter-section {
     padding-top: 96px;
-    padding-bottom: 120px;
 }
+
 .list-buttons {
     display: flex;
     margin-bottom: 72px;
