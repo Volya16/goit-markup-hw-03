@@ -56,7 +56,6 @@ ul {
 
 .header-menu {
     display: flex;
-    padding: 24px 0;
     gap: 40px;
 }
 
@@ -76,17 +75,18 @@ ul {
 }
 
 .header-link {
-    display: flex;
+    display: block;
     color: var(--color-secondary);
     font-weight: 500;line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
+    padding: 24px 0;
 }
 
 .header-address {
 display: flex;
 gap: 40px;
-padding: 24px 0;
+
 }
 
 .address {
@@ -313,8 +313,7 @@ padding: 24px 0;
     border-radius: 4px;
     cursor: pointer;
     border: 1px solid #E7E9FC;
-    width: 126px;
-    height: 48px;
+    padding: 12px 24px;
 }
 
 .filter-button:hover {
